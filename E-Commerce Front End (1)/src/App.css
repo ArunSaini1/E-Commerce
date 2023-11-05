@@ -1,0 +1,71 @@
+body{
+  background-color: aqua;
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 5px;
+}
+
+.nav-ul li a{
+  color:black ;
+  padding: 5px;
+  text-decoration: none;
+}
+.nav-ul{
+  padding: 5px;
+  margin: 0;
+  background-color: green;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: green;
+}
+.inputBox{
+  display: block;
+  /* margin: 25px; */
+  padding: 7px;
+  width: 300px;
+  border: 2px solid green
+
+
+}
+.register{
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.login{
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 100px;
+}
+.nav-right{
+  text-align: right;
+}
+.product{
+  margin-top: 15px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.invalid-input{
+  color: red;
+  margin-top: 1px;
+  display: block;
+  margin-left: 20px;
+}
+.btn{
+  margin-bottom: 10px;
+}
+.slider{
+  border-right: 2px solid black;
+  height: calc(100vh - 44px)
+
+}
+.carousel-item img{
+  height: calc(100vh - 44px) !important;
+}
+.carousel-indicators{
+  display: none !important;
+}
